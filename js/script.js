@@ -61,8 +61,7 @@ for (let i = 0; i < cats.length; i++) {
         age = cats[i].age;
     }
     html += `<div><h5> ${cats[i].name}</h5></div>
-             <div><p>Age: ${age} </p></div>`;
-   
+             <div><p>Age: ${age} </p></div>`;  
 }
 return html;
 }   
