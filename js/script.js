@@ -62,7 +62,7 @@ for (let i = 0; i < cats.length; i++) {
     }
     html += `<div><h5> ${cats[i].name}</h5></div>
              <div><p>Age: ${age} </p></div>`;
-   console.log(html);
+   
 }
 return html;
 }   
