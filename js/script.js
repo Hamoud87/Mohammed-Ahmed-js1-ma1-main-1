@@ -26,7 +26,7 @@ heading.innerHTML = `<h3> Updated heading</h3>`;
 console.log(heading);
 
 // Question 3
-heading.style.fontSize = "20em";
+heading.style.fontSize = "2em";
 
 // Question 4
 heading.classList.add("subheading");
