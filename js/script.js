@@ -46,6 +46,6 @@ console.log(resultContianer);
 // Question 7
  function displayList(list)
 for (let i = 0; i < list.length; i++){
- console.log(list[i]);
+ console.log(list[i].name);
 }
 displayList(cats)
