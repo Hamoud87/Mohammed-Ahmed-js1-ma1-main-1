@@ -44,9 +44,10 @@ resultContianer.innerHTML = `<p> New paragraph </p>`;
 resultContianer.style.backgroundColor = "yellow";
 
 // Question 7
- function displayList(list)
+ function displayList(list){
 for (let i = 0; i < list.length; i++){
  console.log(list[i].name);
+}
 }
 displayList(cats)
 
