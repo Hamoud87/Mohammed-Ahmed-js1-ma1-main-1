@@ -22,7 +22,7 @@ cat.complain();
 
 // Question 2
 const heading = document.querySelector("h3");
-heading.innerHTML = `<h3> Updated </h3>`;
+heading.innerHTML = `<h3> Updated heading</h3>`;
 console.log(heading);
 
 // Question 3
