@@ -49,3 +49,20 @@ for (let i = 0; i < list.length; i++){
  console.log(list[i].name);
 }
 displayList(cats)
+
+// Question 8 
+const container = document.querySelector(".cat-container");
+let html = "";
+function createCats(cats) { 
+for (let i = 0; i < cats.length; i++) {
+   let age = "Age unknown";
+    if (cats[i].age) {
+        age = cats[i].age;
+    }
+    html += `<div><h5> ${cats[i].name}</h5></div>
+             <div><p>Age: ${age} </p></div>`;
+   console.log(html);
+}
+return html;
+}   
+container.innerHTML = createCats(cats);
