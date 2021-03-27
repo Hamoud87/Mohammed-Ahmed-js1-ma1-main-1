@@ -39,9 +39,9 @@ for (let i = 0; i < paragraphs.length; i++) {
 }
 
 // Question 6
-const resultContianer = document.querySelectorAll(".results");
+const resultContianer = document.querySelector(".results");
 resultContianer.innerHTML = `<p> New paragraph </p>`;
-console.log(resultContianer);
+resultContianer.style.backgroundColor = "yellow";
 
 // Question 7
  function displayList(list)
